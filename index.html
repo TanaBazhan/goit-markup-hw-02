@@ -5,29 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css"/>
 </head>
 <body>
         <!--page header-->
-    <header class="page-header">
+    <header class="header">
                 <!-- Main navigation -->
-        <nav>
-            <a lang="en" href="/">Web studio</a>
-            <ul>
-                <li>
-                   <a href="">Студия</a>  
+        <nav class="header-navigation">
+            <a class="header-logo link" lang="en" href="/">Web<span>Studio</span></a>
+            <ul class="header-list list">
+                <li class="header-item">
+                   <a href="" class="header-link link">Студия</a>  
                 </li>
-                <li>
-                    <a href="./portfolio.html">Портфолио</a> 
+                <li class="header-item">
+                    <a class="header-link link" href="./portfolio.html">Портфолио</a> 
                 </li>
-                <li>
-                    <a href="">Контакты</a> 
+                <li class="header-item">
+                    <a class="header-link link" href="">Контакты</a> 
                 </li>
             </ul>
         </nav>
-        <div>
-            <a href="tell:+380961111111">+38096 111 11 11</a>
-            <a href="mailgo:info@devstudio.com">info@devstudio.com</a>
+        <div class="header-right">
+            <a class="header-tel link" href="tell:+380961111111">+38096 111 11 11</a>
+            <a class="header-mail link" href="mailgo:info@devstudio.com">info@devstudio.com</a>
         </div>
     </header>
         <!-- unique page content -->
@@ -39,7 +42,7 @@
         </section>
         <!-- features section -->
         <section class="features-section">
-            <ul>
+            <ul class="list">
                 <li>
                     <h3>Внимание к деталям</h3>
                     <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
@@ -61,7 +64,7 @@
         <!-- image section -->
         <section class="image-section">
             <h2>Чем мы занимаемся</h2>
-            <ul>
+            <ul class="list">
                 <li><img src="./img/img1-min.jpg" alt="Блок схема і процес написання коду" Width="370" Height="294"></li>
                 <li><img src="./img/img2-min.jpg" alt="Смартфон підключений до ноутбука" Width="370" Height="294"></li>
                 <li><img src="./img/img3-min.jpg" alt="Кольорова палітра на планшеті" Width="370" Height="294"></li>
@@ -70,7 +73,7 @@
         <!-- team section -->
         <section class="team-section">
             <h2>Наша команда</h2>
-            <ul>
+            <ul class="list">
                 <li>
                     <img src="./img/img-min.jpg" alt="Игорь Демьяненко" width="270" height="260">
                     <h3>Игорь Демьяненко</h3>
@@ -97,7 +100,7 @@
     <footer>
         <a lang="en" href="/">WebStudio</a>
         <address>
-            <ul> 
+            <ul class="list"> 
                 <li><a href="">г. Киев, пр-т Леси Украинки, 26</a></li>
                 <li><a href="mailgo:info@example.com">info@example.com</a></li>
                 <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
