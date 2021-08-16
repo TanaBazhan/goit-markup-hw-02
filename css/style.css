@@ -44,8 +44,16 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 
-color: #757575;
+color: var(--main-text-color) ;
 }
+.header-mail {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  
+  color: var(--main-text-color) ;
+  }
 .hero {
   background-color: var(--hero-footer-background-color);
 }
@@ -60,6 +68,8 @@ text-transform: uppercase;
 color: var(--main-title-color);
 }
 .hero-button {
+  font-family: Roboto;
+font-style: normal;
   background-color: var(--accent-color);
   font-weight: bold;
 font-size: 16px;
@@ -87,7 +97,7 @@ color: var(--secondary-title-color);
 line-height: 1.71;
 letter-spacing: 0.03em;
 
-color: #757575;
+color: var(--main-text-color);
 }
 .images {
   background-color: var(--secondary-background-color);
@@ -99,7 +109,7 @@ color: #757575;
   text-align: center;
   letter-spacing: 0.03em;
   
-  color: #212121;
+  color: var(--secondary-title-color);
 }
 .team-section {
   background-color: #F5F4FA;
@@ -128,10 +138,17 @@ line-height: 1.19;
 text-align: center;
 letter-spacing: 0.03em;
 
-color: #757575;
+color: var(--main-text-color);
 }
 .contacts {
   background-color: var(--hero-footer-background-color);
+}
+.contacts-address {
+  font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+
+color: var(--main-title-color);
 }
 .contacts-link {
   font-style: normal;
@@ -152,28 +169,27 @@ font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
 
-color: #FFFFFF;
+color: var(--main-title-color);
 }
 span {
-  color: #2196F3;
-}
-.portfolio-hero-title {
-  opacity: 0;
+  color: var(--accent-color);
 }
 
 .portfolio-hero-button:focus,
 .portfolio-hero-button:hover {
-  color: #FFFFFF;
+  color: var(--main-title-color);
   background-color: var(--accent-color);
 }
 .portfolio-hero-button {
+  font-family: Roboto;
+  font-style: normal; 
   font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
 text-align: center;
 letter-spacing: 0.03em;
 cursor: pointer;
-color: #212121;
+color: var(--secondary-title-color);
 }
 .our-products-title {
   font-weight: bold;
@@ -181,14 +197,14 @@ font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
 
-color: #212121;
+color: var(--secondary-title-color);
 }
 .our-products-text {
   font-size: 16px;
 line-height: 1.87;
 letter-spacing: 0.03em;
 
-color: #757575;
+color: var(--main-text-color);
 
 }
  
